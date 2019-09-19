@@ -1,0 +1,40 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "description": "A portfolio of sorts",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "NODE_ENV=production next build",
+    "prod": "NODE_ENV=production next start",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/williamkunz/personal-site.git"
+  },
+  "author": "William Kunz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/williamkunz/personal-site/issues"
+  },
+  "homepage": "https://github.com/williamkunz/personal-site#readme",
+  "dependencies": {
+    "next": "^9.0.6",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "styled-components": "^4.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "stylelint": "^11.0.0",
+    "stylelint-config-standard": "^19.0.0",
+    "stylelint-config-styled-components": "^0.1.1",
+    "stylelint-processor-styled-components": "^1.8.0"
+  }
+}
