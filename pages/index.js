@@ -39,7 +39,7 @@ export default () => (
         <li>
           <a
             download
-            href="/static/resume.pdf"
+            href="/static/william.kunz.resume.pdf"
             title="Where I direct my commits"
           >
             Resume
