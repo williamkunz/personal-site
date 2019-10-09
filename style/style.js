@@ -67,6 +67,8 @@ export const Header = styled.header`
 `
 
 export const List = styled.ul`
+  margin-bottom: 1.8rem;
+
   li {
     margin-bottom: 0.6rem;
   }
@@ -91,6 +93,11 @@ export const List = styled.ul`
 export const PageWrap = styled.div`
   margin: 0 auto 2.4rem;
   padding: 0 1.6rem 1.6rem;
+
+  small {
+    color: #999;
+    font-size: 0.83rem;
+  }
 
   @media only screen and (min-width: 800px) {
     max-width: 50rem;

@@ -14,7 +14,6 @@ export default () => (
     <Header>
       <h1>William Kunz</h1>
       <h4>I'm good at computers.</h4>
-      {/* <small>...but I'd rather put effort elsewhere.</small> */}
     </Header>
     <section>
       <List>
@@ -46,6 +45,8 @@ export default () => (
           </a>
         </li>
       </List>
+
+      <small>I had to quickly put this up. I know it is not good.</small>
     </section>
   </PageWrap>
 )
